@@ -26,8 +26,8 @@ contract StorageFactory {
         myListOfSimpleStorage.push(newContract);
     }
 
-// Once a contract it still has its functions still embedded in it and we can call
-// them from within our function isn't that cool?
+// Once a contract is created, remember it still has its functions still 
+// embedded in it (OOP magic) and we can call them from within our function isn't that cool?
     function sfStore(uint256 _index, uint256 _favNum) public {
       myListOfSimpleStorage[_index].store(_favNum);
     }
