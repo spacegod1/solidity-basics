@@ -7,8 +7,8 @@ import {SimpleStorage} from "./SimpleStorage.sol";
 // This lesson is focused on Inheritance. Let's say we want to
 // our contract to have the same functionality as SimpleStorage contract
 // but add 5 to our favourite number, we can make a child contract(AddFiveStorage)
-// by adding "is" to the parent contract 
-// This makes it possible to inherit all its functions and its custom functions
+// by adding "is" before the parent contract name.
+// This makes it possible to inherit all its functions and its custom functions.
 
 
 contract AddFiveStorage is SimpleStorage {
