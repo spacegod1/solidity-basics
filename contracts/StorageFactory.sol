@@ -10,12 +10,12 @@ import {SimpleStorage} from "./SimpleStorage.sol";
 contract StorageFactory {
 
 // The contract in a sense is of a type of object but in Solidity 
-// is an address (every contract is loacted by its own unique address)
+// is an address (every contract is defined by its own unique address)
 
 // Hence to create a variable of a type of contract we can
 // SimpleStorage public simpleStorage 
 
-// which would follow the type visible name order
+// which would follow the type visiblity name order/rule
 
 
 // But here I created a list to track each contract 
